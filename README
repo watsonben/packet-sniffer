@@ -1,0 +1,9 @@
+NWEN302 README FILE - LAB 1
+---------------------------------------------------------------------------
+To compile the program, type 'gcc -o sniffer sniffer.c -l pcap'.
+To run the program, type 'tcpdump -s0 -w - | ./sniffer -' for live packet
+	capture, or './sniffer <pcap file>' for manual sniffing.
+To run the test suite, simply type './test.py' and the testing program will
+	compile and run itself over some prepared test captures that I have
+	generated.
+---------------------------------------------------------------------------
